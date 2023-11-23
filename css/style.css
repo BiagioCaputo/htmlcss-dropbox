@@ -110,13 +110,13 @@ h2{
     gap:60px;
 }
 
-.col{
+.list-plans .col{
     flex-basis:calc(100% /3 - 40px);
     padding: 1rem;
     min-height: 300px;
 }
 
-.col-big{
+.list-plans .col-big{
     flex-basis: 100%;
     padding: 1rem;
 }
@@ -134,4 +134,23 @@ h2{
 
 .descriprion-find-partner{
     flex-basis: 40%;
+}
+
+/*section operations with dropbox*/
+
+.operations{
+    min-height: 600px;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.operations .col{
+    flex-basis: calc(100%/3);
+    padding: 1rem;
+    border:2px dashed red;
+}
+
+.operation-box h2{
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
