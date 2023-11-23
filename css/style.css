@@ -177,3 +177,23 @@ h2{
 
 }
 
+/*section dropbox partners*/
+
+.dropbox-partners{
+    min-height: 500px;
+}
+
+.dropbox-partners >*{
+    flex-basis:calc(100% / 3);
+    border:2px dashed red;
+}
+.right-panel , .left-panel{
+    flex-wrap: wrap;
+
+}
+
+.img-partner{
+    border:2px dashed red;
+    flex-basis: 50%;
+}
+
