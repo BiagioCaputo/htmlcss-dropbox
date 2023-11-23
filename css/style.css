@@ -20,12 +20,12 @@ ul{
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 60%;
     margin: 0 auto;
 }
 
 .container-big{
-    max-width: 1440px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -40,12 +40,21 @@ ul{
     display: flex;
 }
 
+.button-blu{
+    background-color: #0061FF;
+    color:white;
+    font-size: 23px;
+    padding: 5px 10px;
+    border: none;
+
+}
+
 /*header*/
 header{
     background-color:#B4D0E7;
     padding-top:150px;
     min-height: 600px;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 h1{
@@ -62,24 +71,6 @@ h1{
 
 .jumbotron-img{
     flex-basis: 60%;
-}
-
-/*Nav bar*/
-
-.nav-bar{
-    position: fixed;
-    top:0;
-    right:0;
-    left: 0;
-    min-height:80px;
-}
-
-.navsection-bar{
-    flex-basis: 50%;
-}
-
-.contacts-account-bar{
-    flex-basis: 50%;
 }
 
 /*main*/
@@ -259,4 +250,44 @@ footer{
     min-height: 40px;
     border: 2px dashed white;
     margin-top: 100px;
+}
+
+/*Nav-bar*/
+
+.nav-bar{
+    position: fixed;
+    top:0;
+    right:0;
+    left: 0;
+    min-height:100px;
+    background-color: white;
+    z-index: 1;
+    font-size: 23px;
+}
+
+
+.navsection-bar{
+    flex-basis: 50%;
+}
+
+.contacts-account-bar{
+    flex-basis: 50%;
+}
+
+.navsection-bar-ul{
+    gap:20px;
+    padding:30px 20px;
+    align-items: center;
+}
+
+.contacts-account-bar-ul{
+    gap:20px;
+    padding:30px 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: #8E8E8E;
 }
