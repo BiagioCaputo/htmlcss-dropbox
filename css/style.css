@@ -197,3 +197,22 @@ h2{
     flex-basis: 50%;
 }
 
+/*section free trial*/
+
+.free-trial-section{
+    background-color: #B4D0E7;
+    min-height: 500px;
+    padding-top: 60px;
+}
+
+.free-trial-box{
+    min-height: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.free-trial-box >*{
+    min-height: 40px;
+    width: 30%;
+}
