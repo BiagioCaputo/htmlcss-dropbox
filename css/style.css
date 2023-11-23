@@ -11,7 +11,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
 /*Utilities*/
+.blu{
+    background-color: blue;
+}
 
 .container{
     max-width: 1200px;
@@ -72,3 +78,45 @@ h1{
 .contacts-account-bar{
     flex-basis: 50%;
 }
+
+/*main*/
+
+/*section business planes*/
+
+.section-business{
+    padding-top: 90px;
+}
+
+h2{
+    min-height: 30px;
+    border:2px dashed black;
+    margin-bottom: 40px;
+    background-color: blue;
+}
+
+.selection-facturation{
+    min-height: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.list-plans{
+    min-height: 1400px;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+    gap:60px;
+}
+
+.col{
+    flex-basis:calc(100% /3 - 40px);
+    padding: 1rem;
+    min-height: 300px;
+    border: 2px dashed red;
+}
+
+.col-big{
+    flex-basis: 100%;
+    padding: 1rem;
+    border: 2px dashed red;
+}
+
