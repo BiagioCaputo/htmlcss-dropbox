@@ -32,7 +32,10 @@ ul{
 .border{
     border: 2px dashed black;
 }
+.border-red{
+    border: 2px dashed red;
 
+}
 .flex{
     display: flex;
 }
@@ -111,12 +114,24 @@ h2{
     flex-basis:calc(100% /3 - 40px);
     padding: 1rem;
     min-height: 300px;
-    border: 2px dashed red;
 }
 
 .col-big{
     flex-basis: 100%;
     padding: 1rem;
-    border: 2px dashed red;
 }
 
+/* section contact partner*/
+
+.find-partner{
+    min-height: 500px;
+    padding-top: 120px;
+}
+
+.img-find-partner{
+    flex-basis:60%;
+}
+
+.descriprion-find-partner{
+    flex-basis: 40%;
+}
