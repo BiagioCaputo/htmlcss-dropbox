@@ -233,3 +233,30 @@ h2{
     border:2px dashed red;
     height:30px;
 }
+
+/*Footer*/
+
+footer{
+    background-color: black;
+    color:white;
+    min-height: 600px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.box-footer{
+    border: 2px dashed white;
+    min-height: 500px;
+}
+
+.box-footer > *{
+    border: 2px dashed white;
+    min-height: 300px;
+    flex-basis: calc(100% / 5);
+}
+
+.language-selection{
+    min-height: 40px;
+    border: 2px dashed white;
+    margin-top: 100px;
+}
