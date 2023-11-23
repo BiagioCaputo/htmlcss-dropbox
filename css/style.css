@@ -216,3 +216,20 @@ h2{
     min-height: 40px;
     width: 30%;
 }
+
+/*section FAQ*/
+
+.faq-section{
+    padding-top: 60px;
+}
+
+.faq-box{
+    min-height:300px;
+    flex-wrap: wrap;
+}
+
+.faq-box > *{
+    flex-basis: 100%;
+    border:2px dashed red;
+    height:30px;
+}
