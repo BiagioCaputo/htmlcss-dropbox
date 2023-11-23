@@ -154,3 +154,26 @@ h2{
     margin-top: 100px;
     margin-bottom: 40px;
 }
+
+/*section dropbox clients*/
+
+.dropbox-clients{
+    min-height: 400px;
+    margin-top: 100px;
+}
+
+.dropbox-clients h2{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    min-height: 90px;
+}
+
+.dropbox-clients a{
+    display: block;
+    margin-top: 100px;
+    min-height: 30px;
+    width: 30%;
+    background-color: blueviolet;
+
+}
+
