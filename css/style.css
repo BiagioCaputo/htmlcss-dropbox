@@ -382,22 +382,19 @@ h1{
 
 .free-trial-section{
     background-color: #B4D0E7;
-    min-height: 500px;
-    padding-top: 60px;
+    padding: 200px 0;
 }
 
 .free-trial-box{
-    min-height: 300px;
     justify-content: space-between;
     align-items: center;
 }
 
-
-.free-trial-box >*{
-    min-height: 40px;
-    width: 30%;
+.free-trial-box h2{
+    font-size: 40px;
+    color:#61082B;
+    max-width: 50%;
 }
-
 /*section FAQ*/
 
 .faq-section{
