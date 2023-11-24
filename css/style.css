@@ -95,11 +95,11 @@ li a{
 
 
 .jumbotron-box{
-    position: relative;
+
 }
 
 .jumbotron{
-    position: absolute;
+
 }
 h1{
     font-size: 80px;
@@ -130,51 +130,79 @@ h1{
 
 /*section business planes*/
 
-.section-business{
-
-}
-
-.business-plans-box{
-    
-}
-
-.selection-facturation{
-    justify-content: flex-start;
-    gap:40px;
-    font-size: 24px;
-}
-
-
-
-
-
 .section-business h2{
     font-size: 50px;
     margin-bottom: 40px;
 }
 
 .selection-facturation{
-    min-height: 30px;
+    justify-content: flex-start;
+    gap:40px;
+    font-size: 24px;
     margin-bottom: 30px;
-    
 }
 
 .list-plans{
-    min-height: 1400px;
     flex-wrap: wrap;
     margin: 0 -1rem;
-    gap:60px;
+    align-items: stretch;
 }
 
 .list-plans .col{
-    flex-basis:calc(100% /3 - 40px);
+    flex-basis:calc(100% /3);
     padding: 1rem;
-    min-height: 300px;
 }
 
 .list-plans .col-big{
     flex-basis: 100%;
     padding: 1rem;
+}
+
+.group-type{
+    text-align: center;
+    border:1px solid lightgray;
+    padding:15px;
+}
+
+
+.type-offer{
+    border:1px solid lightgray;
+    padding: 25px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.type-offer > *{
+    margin-bottom: 10px;
+}
+
+.period{
+    font-size: 16px;
+    color:lightgrey;
+    margin-bottom: 40px;
+}
+
+.free-trial-button{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.divider-small{
+    background-color: lightgrey;
+    height: 2px;
+    width: 60px;
+    margin:40px 0;
+}
+
+.personalized-solutions{
+    margin-top: 60px;
+    width: 60%;
+}
+
+.col-big .free-trial-button{
+    position:absolute;
+    right:20px;
+    top:0;
 }
 
 /* section contact partner*/
