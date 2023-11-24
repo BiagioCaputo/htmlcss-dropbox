@@ -14,10 +14,8 @@ body{
 ul{
     list-style-type: none;
 }
-
 img{
     max-width: 100%;
-    display: block;
 }
 /*Utilities*/
 .blu{
@@ -307,24 +305,79 @@ h1{
 
 /*section dropbox partners*/
 
-.dropbox-partners{
-    min-height: 500px;
-}
-
 .dropbox-partners >*{
     flex-basis:calc(100% / 3);
-    border:2px dashed red;
 }
+
 .right-panel , .left-panel{
     flex-wrap: wrap;
-
 }
 
-.img-partner{
-    border:2px dashed red;
+.img-partner-box{
     flex-basis: 50%;
+    text-align: center;
+    padding:50px;
 }
 
+.logo-partner{
+    filter:invert(1);
+    max-width:100%;
+}
+
+.mid-panel{
+    padding:40px;
+}
+
+.img-partner-box-middle{
+    max-width: 50%;
+}
+
+.separator-big{
+    background-color: lightgrey;
+    width: 20%;
+    height: 1px;
+}
+
+.mid-panel > *{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.bg-green{
+    background-color:#A2D39B;
+}
+
+.bg-brown{
+    background-color:#61082B;
+}
+
+.bg-skyblue{
+    background-color:#0093CE;
+}
+
+.bg-lightred{
+    background-color:#FF1C1C;
+}
+
+.bg-red{
+    background-color:#D5001F;
+}
+
+.bg-heavenly{
+    background-color:#B4D0E7;
+}
+
+.bg-blue{
+    background-color:#0D2481;
+}
+
+.bg-yellow{
+    background-color:#FFD830;
+}
+
+.bg-lightgrey{
+    background-color: #F5F5F5;
+}
 /*section free trial*/
 
 .free-trial-section{
