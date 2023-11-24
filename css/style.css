@@ -14,9 +14,11 @@ body{
 ul{
     list-style-type: none;
 }
+
 img{
     max-width: 100%;
 }
+
 /*Utilities*/
 .blu{
     background-color: blue;
@@ -417,24 +419,41 @@ h1{
 footer{
     background-color: black;
     color:white;
-    min-height: 600px;
     padding-top: 100px;
     padding-bottom: 40px;
 }
 
-.box-footer{
-    border: 2px dashed white;
-    min-height: 500px;
-}
-
 .box-footer > *{
-    border: 2px dashed white;
-    min-height: 300px;
     flex-basis: calc(100% / 5);
 }
 
-.language-selection{
-    min-height: 40px;
-    border: 2px dashed white;
+
+.link-footer h4{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.link-footer li{
+    text-decoration: none;
+    line-height: 2;
+    font-size: 20px;
+}
+
+
+.link-footer a{
+    color:white;
+}
+
+.separator-white{
+    background-color: white;
+    width: 10%;
+    height: 1px;
     margin-top: 100px;
+    margin-bottom: 60px;
+    margin-right: 75%;
+    
+}
+
+.language-selection{
+    color:lightgray;
 }
