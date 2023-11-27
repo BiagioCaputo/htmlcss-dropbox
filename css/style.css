@@ -108,7 +108,6 @@ li a{
 
 #jumbotron-section{
     background-color:#B4D0E7;
-    padding-top:70px;
     margin-bottom: 200px;
 }
 
@@ -120,7 +119,7 @@ li a{
 
 h1{
     font-size: 7rem;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .jumbotron-description{
@@ -134,7 +133,7 @@ h1{
 }
 
 .jumbotron-description .fa-arrow-down{
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 /*section business planes*/
@@ -178,18 +177,23 @@ h1{
 
 .type-offer{
     padding: 25px;
-    line-height: 1.5;
     position: relative;
 }
 
-.type-offer > *{
-    margin-bottom: 10px;
-}
 
 .period{
     font-size: 16px;
     color:#D6DADB;
     margin-bottom: 40px;
+}
+
+.fa-ul{
+    margin-left: 0;
+}
+
+.fa-li {
+    left: 0;
+    position: relative;
 }
 
 
@@ -198,11 +202,6 @@ h1{
     height: 2px;
     width: 60px;
     margin:40px 0;
-}
-
-
-.ul-plane li{
-    margin-top: 30px;
 }
 
 .personalized-solutions{
@@ -304,9 +303,11 @@ h1{
 
 /*section dropbox partners*/
 
-.dropbox-partners >*{
-    flex-basis:calc(100% / 3);
+.right-panel , .left-panel, .mid-panel{
+    width: calc(100vw / 3);
+    height: calc(100vh /3);
 }
+
 
 .right-panel , .left-panel{
     flex-wrap: wrap;
@@ -314,19 +315,22 @@ h1{
 
 .img-partner-box{
     flex-basis: 50%;
-    padding:80px;
     height: 50%;
     align-items: center;
     justify-content: center;
+    padding: 80px;
 }
 
 .logo-partner{
     filter:invert(1);
-    max-width:80%;
+    max-width:100%;
 }
 
 .bg-skyblue .logo-partner{
-    max-height: 40%;
+    max-height: 70%;
+}
+.bg-brown .logo-partner{
+    max-width: 70%;
 }
 
 .bg-green.img-partner-box{
@@ -417,19 +421,20 @@ h1{
 
 .faq-box h2{
     font-size: 36px;
-    margin-bottom: 40px;
-}
-
-.separator-faq{
-    background-color:#9E9E9E;
-    height: 1px;
-    margin:30px 0;
+    padding: 50px 0;
+    border-bottom:1px #9E9E9E solid;
 }
 
 
 .question{
     font-weight: bold;
     font-size: 20px;
+}
+
+.question-box{
+    justify-content: space-between;
+    padding: 50px 0;
+    border-bottom:1px #9E9E9E solid;
 }
 
 /*Footer*/
