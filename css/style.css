@@ -65,6 +65,9 @@ img{
     margin-top: 30px;
 }
 
+.mb-40{
+    margin-bottom: 40px;
+}
 .bold{
     font-weight: bold;
 }
@@ -137,9 +140,7 @@ h1{
 }
 
 /*section business planes*/
-.card{
-    border:1px solid lightgray;
-}
+
 .section-business h2{
     font-size: 50px;
     margin-bottom: 40px;
@@ -168,6 +169,14 @@ h1{
     padding: 1rem;
 }
 
+.section-business .card{
+    border:1px solid lightgray;
+}
+
+.col .card{
+    min-height: 100%;
+}
+
 .group-type{
     text-align: center;
     border-bottom:1px solid lightgray;
@@ -180,28 +189,21 @@ h1{
     position: relative;
 }
 
+.type-offer > *{
+    margin-bottom: 20px;
+
+}
 
 .period{
     font-size: 16px;
     color:#D6DADB;
-    margin-bottom: 40px;
 }
-
-.fa-ul{
-    margin-left: 0;
-}
-
-.fa-li {
-    left: 0;
-    position: relative;
-}
-
 
 .divider-small{
     background-color: #D6DADB;
     height: 2px;
     width: 60px;
-    margin:40px 0;
+    margin:60px 0;
 }
 
 .personalized-solutions{
@@ -219,6 +221,14 @@ h1{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.fa-ul{
+    margin-left: 20px;
+}
+
+.fa-ul > *{
+    margin:30px 0;
 }
 /* section contact partner*/
 
@@ -333,7 +343,7 @@ h1{
     max-width: 70%;
 }
 
-.bg-green.img-partner-box{
+.img-partner-box:hover{
     border:15px solid #D1E9CD;
 }
 .mid-panel{
